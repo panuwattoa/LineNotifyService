@@ -2,7 +2,7 @@
   "name": "LineNotifyService",
   "version": "1.0.0",
   "description": "Node.js Line Notify Message  package",
-  "main": "index.js",
+  "main": "src/line_notify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/panuwattoa/LineNotifyService.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "mress",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/panuwattoa/LineNotifyService/issues"

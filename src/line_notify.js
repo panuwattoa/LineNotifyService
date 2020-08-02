@@ -12,7 +12,7 @@ class Notify{
     }
     
     
-    async Notify(args){
+    Notify(args){
         return new Promise((resolve, reject)=>{
             this.http.post(config.URL_LINE['send'], {
                 messages: toArray(args.messages),

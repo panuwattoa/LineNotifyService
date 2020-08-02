@@ -11,12 +11,11 @@ class Notify{
         this.http.defaults.headers.common['Authorization'] = "Bearer " + token;
     }
     
-    
+    //https://developers.line.me/businessconnect/api-reference#sending_message
     Notify(args){
         return new Promise((resolve, reject)=>{
             this.http.post(config.URL_LINE['send'], {
-                messages: toArray(args.messages),
-                replyToken: args.replyToken,
+                messages: args.messages,
               }).then(res=>{
                 const body = res.body
                 resolve(JSON.parse(body))

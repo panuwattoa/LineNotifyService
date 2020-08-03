@@ -56,4 +56,5 @@ ex.
 or you can use both 
 
 > const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN", tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
+
 > lineNotify.Notify(payload)`

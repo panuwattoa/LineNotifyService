@@ -8,7 +8,7 @@ https://developers.line.biz/console/
 #Initialization
 > import Notify from 'line-notify-service';
 
-const lineNotify = new Notify({tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
+`const lineNotify = new Notify({tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})`
 
 #payload document
 https://developers.line.biz/en/services/messaging-api/
@@ -25,7 +25,7 @@ ex.
         ],
       }
       
-lineNotify.replyMessage(payload)`
+ lineNotify.replyMessage(payload)`
 
 #For line-notify 
 https://notify-bot.line.me/en/

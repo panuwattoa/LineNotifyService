@@ -1,5 +1,5 @@
 # LineNotifyService
-Node.js Line Notify and line bot Message package
+Node.js Line Notify and Line Bot Message package
 
 # Install 
 > npm install line-notify-service

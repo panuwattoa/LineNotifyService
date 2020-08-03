@@ -23,9 +23,9 @@ ex.
               'ไม่สามารถตรวจผลสลากกินแบ่งได้',
           },
         ],
-      }
+      },`
       
- lineNotify.replyMessage(payload)`
+` lineNotify.replyMessage(payload)`
 
 #For line-notify 
 https://notify-bot.line.me/en/

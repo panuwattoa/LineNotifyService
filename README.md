@@ -23,9 +23,13 @@ ex.
               'ไม่สามารถตรวจผลสลากกินแบ่งได้',
           },
         ],
-      },`
-      
- > lineNotify.replyMessage(payload)`
+      }`
+> lineNotify.replyMessage(payload)
+ 
+ `message` can be used flex-messages
+ # https://developers.line.biz/en/docs/messaging-api/using-flex-messages/ 
+ 
+ 
 
 #For line-notify 
 https://notify-bot.line.me/en/

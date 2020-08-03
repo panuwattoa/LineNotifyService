@@ -1,7 +1,7 @@
 {
   "name": "LineNotifyService",
   "version": "1.0.0",
-  "description": "Node.js Line Notify Message  package",
+  "description": "Node.js Line Notify and line bot Message package",
   "main": "src/line_notify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/panuwattoa/LineNotifyService.git"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "line bot",
+    "line notify"
+  ],
   "author": "mress",
   "license": "ISC",
   "bugs": {
@@ -18,6 +22,7 @@
   },
   "homepage": "https://github.com/panuwattoa/LineNotifyService#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1"
   }
 }

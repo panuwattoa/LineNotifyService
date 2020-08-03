@@ -25,14 +25,14 @@ ex.
         ],
       },`
       
-` lineNotify.replyMessage(payload)`
+ > lineNotify.replyMessage(payload)`
 
 #For line-notify 
 https://notify-bot.line.me/en/
 
-`const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})`
+> const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})
 
 or you can use both 
 
-`const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN", tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
-lineNotify.Notify(payload)`
+> const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN", tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
+> lineNotify.Notify(payload)`

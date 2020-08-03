@@ -48,7 +48,8 @@ ex.
           },
         ],
       }`
-> lineNotify.Notify(payload)`
+      
+> lineNotify.Notify(payload)
 
 
 or you can use both 

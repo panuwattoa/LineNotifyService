@@ -6,14 +6,15 @@ For line-bot you need to get Channel access token.
 https://developers.line.biz/console/
 
 #Initialization
->> import Notify from 'line-notify-service';
+> import Notify from 'line-notify-service';
 
 const lineNotify = new Notify({tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
 
-payload document
+#payload document
 https://developers.line.biz/en/services/messaging-api/
 
-ex. const payload = {
+ex. 
+   `const payload = {
         replyToken: req.body.events[0].replyToken,
         messages: [
           {
@@ -24,14 +25,14 @@ ex. const payload = {
         ],
       }
       
-lineNotify.replyMessage(payload)
+lineNotify.replyMessage(payload)`
 
-For line-notify 
+#For line-notify 
 https://notify-bot.line.me/en/
 
-const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})
+`const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})`
 
 or you can use both 
 
-const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN", tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
-lineNotify.Notify(payload)
+`const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN", tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})
+lineNotify.Notify(payload)`

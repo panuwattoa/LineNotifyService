@@ -1,16 +1,19 @@
 # LineNotifyService
 Node.js Line Notify and line bot Message package
 
-#Need
+# Install 
+> npm install line-notify-service
+
+# Need
 For line-bot you need to get Channel access token.
 https://developers.line.biz/console/
 
-#Initialization
+# Initialization
 > import Notify from 'line-notify-service';
 
 `const lineNotify = new Notify({tokenBot:"WITH_YOUR_CHANNEL_ACCESSTOKEN"})`
 
-#payload document
+# Payload document
 https://developers.line.biz/en/services/messaging-api/
 
 ex. 
@@ -27,11 +30,11 @@ ex.
 > lineNotify.replyMessage(payload)
  
  `message` can be used flex-messages
- # https://developers.line.biz/en/docs/messaging-api/using-flex-messages/ 
+ https://developers.line.biz/en/docs/messaging-api/using-flex-messages/ 
  
  
 
-#For line-notify 
+# For line-notify 
 https://notify-bot.line.me/en/
 
 > const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})

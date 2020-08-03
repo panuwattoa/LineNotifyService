@@ -1,5 +1,5 @@
 {
-  "name": "LineNotifyService",
+  "name": "line-notify-service",
   "version": "1.0.0",
   "description": "Node.js Line Notify and line bot Message package",
   "main": "src/line_notify.js",

@@ -38,6 +38,18 @@ ex.
 https://notify-bot.line.me/en/
 
 > const lineNotify = new Notify({tokenNotify:"WITH_YOUR_TOKEN"})
+ex. 
+   `const payload = {
+        messages: [
+          {
+            type: 'text',
+            text:
+              'ไม่สามารถตรวจผลสลากกินแบ่งได้',
+          },
+        ],
+      }`
+> lineNotify.Notify(payload)`
+
 
 or you can use both 
 
